@@ -1,0 +1,235 @@
+4th Sep 2025
+============
+
+-> Python : 35-40 Days (Common for DA/DS/AI or FullStack or Cloud & DevOps)
+
+    -> DA/DS/AI : pandas, numpy, matplotlib etc 
+    -> FullStack : Django
+    -> Cloud & DevOps : Scripting (OS,SYS,Cloud Modules etc)
+
+-> Python : Python is a high-level, general-purpose programming language. 
+            Its design philosophy emphasizes code readability 
+            with the use of significant indentation. 
+            Python is dynamically type-checked and garbage-collected.
+
+-> Programming Language (Python) : Communicate with Machines
+
+    -> Why shouldn't i Communicate with Machines using English ?
+
+        -> Machines Use Binary Language (01110100101's) 
+
+            -> Binary Language == Machine Language = Low Level Language
+
+            -> 01110000 01111001 01110100 01101000 01101111 01101110 
+
+                -> python
+
+            -> High Level Language 
+
+        Language (English) : Communicate with humans who wants to exchange ideas / data 
+        in terms of english
+    
+    -> General-purpose programming languages
+
+        -> used to manage workloads in different domains 
+
+            -> python can be used for following 
+                (bcz of Supporting Multiple Programming Paradigms )
+
+                -> Desktop Apps
+                -> Web Apps
+                -> API Dev
+                -> Data Related Domain
+                -> Scripting 
+                -> etc 
+
+    -> Domain Specific programming languages
+
+        -> Structured Query Language is a domain-specific language used to manage data, especially in Database Systems
+
+    -> Programming Paradigms 
+
+        -> Paradigm : structure / way to do things
+
+        -> Imperative : HOW TO DO (Style) - Full stack / DevOps / Cloud
+
+        -> Declarative : WHAT TO DO (Style) Functional - DA / DS / AI
+
+        -> Python supports Multiple Programming Paradigms 
+
+
+    -> Add Two Numbers In Java
+
+    class Main {
+        public static void main(String[] args) {          
+            int first = 10;
+            int second = 20;
+            // add two numbers
+            int sum = first + second;
+            System.out.println(first + " + " + second + " = "  + sum);
+        }
+    }
+
+    -> Add Two Numbers In Python
+        first = 10
+        second = 20
+        sum = first + second
+        print(sum)
+    
+    -> Interpreted (Slow In Performance) - Python
+
+    -> Compiled (Fast In Performance) - Java
+
+5th Sep 2025
+============
+
+-> Hardware Spec:
+
+    -> i5 / i3 Processor
+    -> 8 GB RAM 
+    -> 500 GB HDD
+
+-> Softwares:
+
+    -> Setup Python (python.org)
+    
+    -> IDE : Integrated Development Environment (Visual Studio Code)
+        -> For Writing Code
+        
+    -> Version Control System : Helps You Keep Track Of Code 
+
+        -> Project : Repository (Holds Project Code + Tracking History) (Collection Of Commits)
+
+        -> Changes : Commits 
+
+        -> Systems We Use
+
+            -> Git : Client Software installed in developer laptop, to start tracking code
+
+            -> GitHub : Platform Which Enables To Store Source Code (github.com)
+
+        -> Workflow
+
+            -> As a developer, you'll create an account on GitHub (github.com)
+
+            -> On Github We Create Repository (Remote Repository) - Unique URL
+
+            -> Clone (Remote Repository) Using - Unique URL 
+
+                -> Clone(copying) To laptop i.e project is copied inside your laptop 
+
+            -> project is copied inside your laptop - Local Repository
+
+            -> First Clone --> Local Repository == Remote Repository
+
+            -> Write a program to calculate sum of 1000 employees salaries 
+
+            -> created employees_salaries.py file -> Write logics (code)
+
+            -> Commit Change (Saving in Local Repository)
+
+8th Sep 2025
+============
+
+    -> Installing Python from python.org 
+
+        -> windows - .exe
+        -> macos - .pkg
+
+        -> NOTE : Check both the options, while installing python(adds PATH variable to Env Settings)
+
+        -> Win : Command Prompt(cmd) --> python --version 
+
+        -> Mac : Goto Launchpad --> Search (look for Terminal) --> python3 --version
+
+    -> Installing IDE 
+
+        -> Visual Studio Code (VS Code) : Writing Code
+
+        -> To execute python code moving forward --> Use Terminal from VS Code
+    
+    -> Installing Git 
+
+        -> Download & Install Git 
+
+            -> https://git-scm.com/downloads
+
+            -> MAC OS 
+
+                -> Install Home Brew - https://brew.sh/
+
+                    -> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+                -> Install Git 
+
+                    -> brew install git
+
+        -> Create GitHub Account 
+
+            -> https://github.com/
+
+        -> Clone Repository
+
+        -> Open GitBash (Detailed Used While Creating GitHub Account)
+
+            -> git config --global user.name github_id
+            
+            -> git config --global user.email github_email
+        
+        -> Start Writing Code & Track Code & Update in GitHub
+    
+9th Sep 2025
+============
+
+    -> Work With Python Code
+    
+        -> Script Mode (100% We use this from real time) 
+
+            -> Using IDE (VS Code)
+
+        -> CLI Mode (Command Line Interface Mode / Interactive ) (not often used) (Quick Checks)
+
+            -> CLI 
+                -> win : command prompt (cmd)
+                -> mac : terminal 
+
+                    -> win : python 
+                    -> mac : python3 
+
+            -> NOTE : Code written in CLI mode is for temporary purpose
+    
+    -> Any Programming Language has Syntax (Rules & Guidelines)
+
+    -> Comparing a language like English with Python
+
+        -> English has 26 alphabets (abcd....z)
+
+        -> Python has keywords 
+
+    -> Keyword : Predefined words, which holds special meaning to python Interpreter 
+
+        -> List Of Keywords : https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+        -> We have 35 keywords 
+
+            False      await      else       import     pass
+            None       break      except     in         raise
+            True       class      finally    is         return
+            and        continue   for        lambda     try
+            as         def        from       nonlocal   while
+            assert     del        global     not        with
+            async      elif       if         or         yield
+
+        -> Keywords + Syntax = Program / Application
+
+        -> NOTE : Keywords cannot be used as identifiers
+
+        -> English 
+            -> today i take class for 8 AM to 9 AM (invalid)
+            -> today i'll be taking the class from 8 AM to 9 AM (valid)
+
+        -> Python 
+            -> print(hello) (invalid)
+            -> print("hello") (valid)
+
+        
