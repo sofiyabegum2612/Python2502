@@ -1,2 +1,2 @@
-# Python2502
-Python Learning
+# python-2520
+Python Batch 2520
