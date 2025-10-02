@@ -586,3 +586,175 @@
     -> String Methods 
 
         -> String class(datatype) provides various methods 
+
+19th Sep 2025
+=============
+
+    -> String Methods Continued 
+
+    -> App Req On Strings
+
+20th Sep 2025
+=============
+
+    -> Simple Data types 
+
+        -> Can hold one value 
+
+        -> data = 10
+
+    -> Complex Data types
+
+        -> Can hold multiple values 
+
+        -> data = [10,20,30,40,50]
+
+    -> In python(part of standard library) we use following classes to work with Complex Data types
+
+        -> List 
+        -> Tuple 
+        -> Dictionary
+        -> Set 
+
+    -> List 
+
+        -> List is a data structure which allows you to Store multiple values in a single variable
+
+        -> Lists are represented using [ ] or use list class ==> list()
+
+        -> Accessing the data in lists 
+
+            -> Like in Strings, we have index which starts from 0 
+
+            -> Use index number to access individual elements
+
+            -> Both Positive and Negative Indexing 
+
+            -> Indexing is same as Strings
+
+            -> Slicing is same as Strings 
+
+                 slice[start: stop: step]
+            
+                    start : from zero included 
+                    stop : at end excluded
+                    step : is 1 by default  
+
+        -> Looping 
+
+        -> Operators 
+
+        -> Conditionals 
+
+        -> Duplicates Allowed 
+
+        -> List Methods / operations
+
+
+22nd Sep 2025
+=============
+
+    -> List Methods Continued 
+
+    -> List Characteristics 
+
+        -> Order : Lists is ordered (insertion order is preserved)
+
+        -> Mutable : Lists can be modified (append,clear)
+
+        -> Duplicates : Allowed 
+
+        -> Can we hold different data types : Yes 
+
+
+-> Tuples 
+
+    -> Tuples is a data structure which allows you to Store multiple values in a single variable
+
+        -> Tuples are represented using ( ) or use tuple class ==> tuple()
+
+        -> Accessing the data in Tuples 
+
+            -> Like in Strings, we have index which starts from 0 
+
+            -> Use index number to access individual elements
+
+            -> Both Positive and Negative Indexing 
+
+            -> Indexing is same as Strings
+
+            -> Slicing is same as Strings 
+
+                 slice[start: stop: step]
+            
+                    start : from zero included 
+                    stop : at end excluded
+                    step : is 1 by default  
+
+        -> Looping 
+
+        -> Operators 
+
+        -> Conditionals 
+
+        -> Duplicates Allowed 
+
+        -> Tuples Methods / operations
+
+        -> Tuples are READ ONLY type of data 
+
+        -> Read only lists is your Requirement, use Tuple
+
+    -> Tuples Characteristics 
+
+        -> Order : Tuples is ordered (insertion order is preserved)
+
+        -> Immutable : Tuples cannot be modified (count, index -> accessing)
+
+        -> Duplicates : Allowed 
+
+        -> Can we hold different data types : Yes 
+
+
+23rd Sep 2025
+=============
+
+    -> Dictionary (Mapping Type Of Data)
+
+    -> Dictionary is a data structure which allows you to Store multiple key, values in a single variable
+
+        -> key, value -> pair / item
+            key:value,key:value,.......
+
+        -> Dictionaries are represented using { } or use tuple class ==> dict()
+
+    -> There is no index in Dictionaries 
+
+    -> NO INDEXING 
+
+    -> NO SLICING 
+
+    -> Rule 
+
+        -> keys cannot be duplicates (it will override the data)
+        -> keys should be Immutable objects only (95% or above keys will be strings)
+        -> values can be duplicates
+        -> valid can be any object 
+    
+    -> In Dictionaries we use key to access data/values not index 
+
+    -> Dictionary Characteristics 
+
+        -> Order : Dictionary is ordered (insertion order is preserved)
+
+        -> Mutable : Dictionaries can be modified (update,clear)
+
+        -> Duplicates : Allowed 
+
+            -> duplicate keys will be override 
+            -> duplicate values allowed 
+
+        -> Can we hold different data types : Yes 
+
+            -> key should be Immutable
+            -> value can be any type of data 
